@@ -324,6 +324,10 @@
 			display: block;
 			width: 100%;
 		}
+		
+		&.fit img{
+			height: 250px;
+		}
 
 		&.featured {
 			display: block;
@@ -771,8 +775,16 @@
 			}
 
 			&.four {
-				background-color: #e8edec;
+				background-color: #f5fafa;
 			}
+
+			&.five {
+				background-color: #ecf1f1;
+			}
+
+			// &.skills-list{
+			// 	list-style: none;
+			// }
 		}
 	}
 

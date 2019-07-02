@@ -7,7 +7,7 @@ module.exports = {
     manifestBackgroundColor: `#663399`,
     manifestThemeColor: `#663399`,
     manifestDisplay: `minimal-ui`,
-    manifestIcon: `src/images/gatsby-icon.png`,
+    manifestIcon: `src/images/avatar.png`,
     pathPrefix: `/gatsby-starter-default/`, // This path is subpath of your hosting https://domain/portfolio
     authorName: 'Suchita',
     heading: 'Web Developer',
@@ -22,6 +22,11 @@ module.exports = {
             icon: 'fa-instagram',
             name: 'Instagram',
             url: 'https://www.instagram.com/suchita.404error/',
+        },
+        {
+            icon: 'fa-linkedin',
+            name: 'Linkedin',
+            url: 'https://www.linkedin.com/in/suchita-jain-44905381/',
         },
         {
             icon: 'fa-envelope-o',

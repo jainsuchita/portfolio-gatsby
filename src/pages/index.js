@@ -2,10 +2,10 @@ import React from 'react';
 
 import { Layout, SideBar, Footer } from "../components";
 
-// import pic4 from '../assets/images/pic04.jpg';
-// import pic5 from '../assets/images/pic05.jpg';
-// import pic6 from '../assets/images/pic06.jpg';
-// import pic7 from '../assets/images/pic07.jpg';
+import pic4 from '../assets/images/pic04.png';
+import pic5 from '../assets/images/pic05.png';
+import pic6 from '../assets/images/pic06.png';
+import pic7 from '../assets/images/pic07.png';
 // import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
 
@@ -13,6 +13,7 @@ const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
   { id: 'portfolio', name: 'Portfolio', icon: 'fa-th' },
   { id: 'about', name: 'About Me', icon: 'fa-user' },
+  { id: 'skills', name: 'Skills', icon: 'fa-cogs' },
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
 
@@ -25,9 +26,9 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Suchita</strong>
+              Hey, I'm a <strong>Suchita ;)</strong>
               <br />
-              Web developer
+              Web developer | Frontend Developer | React Developer
             </h2>
             <p>I have made few things check it out.</p>
           </header>
@@ -49,50 +50,47 @@ const IndexPage = () => (
           </header>
 
           <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
+            I am a motivated front-end developer who specializes in developing fully <strong> responsive dynamic website </strong> from scratch. I've been delivering the high quality code for over 5 years now, using HTML, CSS, JS, React.js and Redux.
           </p>
 
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img alt="" />
+                  <img src={pic4} alt="" />
                 </a>
                 <header>
-                  <h3>Ipsum Feugiat</h3>
+                  <h3>Liquidswap - Cryptocurrency exchange Website</h3>
                 </header>
               </article>
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img alt="" />
+                  <img src={pic5} alt="" />
                 </a>
                 <header>
-                  <h3>Rhoncus Semper</h3>
+                  <h3>Droplet Computing - Website</h3>
                 </header>
               </article>
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img alt="" />
+                  <img src={pic6} alt="" />
                 </a>
                 <header>
-                  <h3>Magna Nullam</h3>
+                  <h3>Droplet Computing - Desktop App</h3>
                 </header>
               </article>
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img alt="" />
+                  <img src={pic7} alt="" />
                 </a>
                 <header>
-                  <h3>Natoque Vitae</h3>
+                  <h3>Droplet Computing - Chrome App</h3>
                 </header>
               </article>
             </div>
-            <div className="col-4 col-12-mobile">
+            {/* <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
                   <img alt="" />
@@ -109,7 +107,7 @@ const IndexPage = () => (
                   <h3>Orci Convallis</h3>
                 </header>
               </article>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -125,29 +123,58 @@ const IndexPage = () => (
           </a>
 
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+            I love the web and techy things and computers and what makes them tick.  I constantly look for new ways to do my work, new programs, new sites and new methodologies.  I won’t let my tools slow me down, and I can fix them when they break.  I’m not saying I can debug a crashing Dreamweaver, but only because I haven’t coded assembly in a few years.
+
+            <br />
+            I develop fast interactive front ends, using the latest technologies and techniques to reduce page load time. I use my knowledge and tools to save time in development.
           </p>
         </div>
       </section>
 
-      <section id="contact" className="four">
+      <section id="skills" className="four">
         <div className="container">
           <header>
-            <h2>Contact</h2>
+            <h2>Skills and Experience</h2>
           </header>
 
+          <a href="/#" className="image featured">
+            <img alt="" />
+          </a>
+
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            The main area of my expertise is front end development (client side of the web).
+
+            <br />
+            HTML, CSS, JS (TypeScript), building small and medium web apps with React, custom plugins, features, animations, and coding interactive layouts.
+
+            <br />
+            I also have full-stack developer experience with Express.js, postgreSQL (PERN :P)
+
+            <br />
+            Visit my <a href="https://www.linkedin.com/in/suchita-jain-44905381/">LinkedIn </a> profile for more details or just contact me.
+          </p>
+
+          {/* <ul className="skills-list">
+            My work that I am very proud of:-
+         <li> A fully functional website from Front-end to back-end using Reactjs, Redux, Typescript, ExpressJs, and PostgreSQL. </li>
+            <li> A Desktop Application using Electron JS.</li>
+            <li> A Chrome App using HTML, CSS, and Reactjs </li>
+            <li> A complex Cryptocurrency website to swap crypto tokens on Ethereum blockchain using Reactjs, web3.js and metamask wallet. </li>
+          </ul> */}
+        </div>
+      </section>
+
+      <section id="contact" className="five">
+        <div className="container">
+          <header>
+            <h2>I can help.</h2>
+          </header>
+          <p>
+            I’m currently available for freelance work.
+            So are you looking for a professional, communicative & punctual software engineer with extensive web development skills?
+            <br />
+            If you have an application you are interested in developing, a problem that needs solving or a project that needs rescuing, I'd love to help you with it.
+            <br />
           </p>
 
           <form method="post" action="#">
